@@ -1,6 +1,6 @@
 name: Git Sync Action
-author: Wei He <github@weispot.com>
-description: 🔃  Sync between two independent repositories
+author: Codions <devs@codions.com>
+description: Sync between two independent repositories
 branding:
   icon: 'git-branch'
   color: 'gray-dark'

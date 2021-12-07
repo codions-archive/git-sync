@@ -104,10 +104,10 @@ $ docker run --rm -e "SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)" $(docker build -q .)
   $SOURCE_REPO $SOURCE_BRANCH $DESTINATION_REPO $DESTINATION_BRANCH
 ```
 
-## Author
+## Credits
 
-[Wei He](https://github.com/wei) _github@weispot.com_
+This project is based on the excellent work done by [Wei He](https://github.com/wei). See more in the [original repository](https://github.com/wei/git-sync).
 
 ## License
 
-[MIT](https://wei.mit-license.org)
+[MIT](https://mit-license.org/)
