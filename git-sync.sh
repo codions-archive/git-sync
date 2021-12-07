@@ -2,11 +2,6 @@
 
 set -e
 
-SOURCE_REPO=$1
-SOURCE_BRANCH=$2
-DESTINATION_REPO=$3
-DESTINATION_BRANCH=$4
-
 if ! echo $SOURCE_REPO | grep -Eq ':|@|\.git\/?$'; then
   if [[ -n "$SSH_PRIVATE_KEY" || -n "$SOURCE_SSH_PRIVATE_KEY" ]]; then
     SOURCE_REPO="git@github.com:${SOURCE_REPO}.git"
