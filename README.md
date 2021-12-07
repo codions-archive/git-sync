@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
-        uses: wei/git-sync@v3
+        uses: codions/git-sync@v1
         with:
           source_repo: "source_org/repository"
           source_branch: "main"
