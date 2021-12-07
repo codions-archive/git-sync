@@ -105,8 +105,7 @@ $ docker run --rm -e "SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)" $(docker build -q .)
 ```
 
 ## Credits
-
-This project is based on the excellent work done by [Wei He](https://github.com/wei). See more in the [original repository](https://github.com/wei/git-sync).
+This project is based on [wei/git-sync](https://github.com/wei/git-sync)
 
 ## License
 
