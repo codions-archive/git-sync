@@ -1,4 +1,4 @@
-name: Git Sync Action
+name: Codions Git Sync
 author: Codions <devs@codions.com>
 description: Sync between two independent repositories
 branding:
